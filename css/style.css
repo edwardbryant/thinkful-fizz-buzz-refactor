@@ -1,3 +1,16 @@
 #guts {
     width: 50%;
 }
+#user-range {
+    background-color: #fffadd;
+    line-height: 30px;
+    border: 2px solid #000;
+}
+#user-submit {
+    border: 2px solid #000;
+    background-color: #080;
+    line-height: 30px;
+    padding: 6px;
+    color: #fffadd;
+    margin-left: 8px;
+}
