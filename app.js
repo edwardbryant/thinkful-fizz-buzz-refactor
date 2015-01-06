@@ -10,7 +10,7 @@ $(document).ready(function(){
 })
 function fizzbuzz(num){
     $('#guts').text(" Counting to "+num+" ... ");
-    for (var i=1;i<=num;i++){
+    for (var i=1;i<=num;i++) {
         if (i % 3 == 0) {
             if (i % 5 == 0) {
                 var x = '<span style="color:red;font-weight:bold;">fizz-buzz</span>';
