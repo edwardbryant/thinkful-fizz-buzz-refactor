@@ -2,6 +2,9 @@ $(document).ready(function(){
     $('#user-submit').on('click', function() {
         var user_range = $('#user-range').val();
         user_range = parseInt(user_range,10);
+        if (isNaN(user_range)) {
+            user_range = 0;
+        }
         fizzbuzz(user_range);
     });        
 })
